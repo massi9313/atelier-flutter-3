@@ -24,25 +24,26 @@ class MainApp extends StatelessWidget {
               SizedBox(height: 20),
               
               Text(
-                'Bienvenue dans cet atelier !',
+                'Atelier 2  Widgets de base',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
-                  color: Colors.blueAccent,
+                  color: const Color.fromARGB(255, 62, 204, 10),
                 ),
               ),
 
               SizedBox(height: 20),
+              Image.network('https://picsum.photos/200'
+   
+),
 
-              Image.network('https://picsum.photos/200',
-              width: 200,
-              ),
+
               
               SizedBox(height: 20),
 
 
               Text(
-                'Decouvrez comment construire une interface simple et elegante',
+                'Ceci est une démonstration Flutter',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 16),
               )
