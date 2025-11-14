@@ -46,8 +46,25 @@ class MainApp extends StatelessWidget {
                 'Ceci est une démonstration Flutter',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 16),
-              )
-            ],
+              ),
+              SizedBox(height: 30),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ElevatedButton(onPressed: () {
+                    print("tu as clique sur commencer .");
+                  },
+                  child: Text('commencer'),
+                  ),
+
+                  OutlinedButton(onPressed: () {
+                    print("tu as cliquer sur en savoir plus .");
+                  },
+                  child: Text('En savoir plus'),
+                  ),
+                ],
+              ),
+            ]
           ),
         ),
         ),
