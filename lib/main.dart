@@ -57,10 +57,10 @@ class MainApp extends StatelessWidget {
                   child: Text('commencer'),
                   ),
 
-                  OutlinedButton(onPressed: () {
-                    print("tu as cliquer sur en savoir plus .");
+                  TextButton(onPressed: () {
+                    print("textbutton tester.");
                   },
-                  child: Text('En savoir plus'),
+                  child: Text('boutton simple'),
                   ),
                 ],
               ),
